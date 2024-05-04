@@ -1,0 +1,45 @@
+Data types 
+
+string - series of characters
+
+ - subscript - pulls a particular element of a string
+ 
+integer = whole number
+ - can use underscore in an integrer in place of a comma
+
+float - number with decimal places
+
+boolean - True or False 
+
+type() will return the data type of a variable
+
+type casting change a variables datatype
+  - str(num_char) - converts num_char to string 
+  - float(num_char) - convet to a float 
+
+PEMDAS
+()
+**
+* or / which is leftmost first
++ or - which is leftmost firs
+
+** note all division is a float
+
+rounding a float
+round(8 / 3 )
+round(8 / 3, 2) # two decimal point precision
+
+variable shorthand
+num = 1 # sets num
+num +=1 # addes 1 to num same as num = num + 1
+num -= 1 # substracts 1 
+num *= 1 # multiples 1
+
+
+F strings
+place a f in front the string 
+example:
+score = 0 # integer
+print(f"your score is {score}") 
+# converts the variable to a string
+
